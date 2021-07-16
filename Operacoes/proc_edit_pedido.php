@@ -9,8 +9,9 @@ $produto =  $_POST["produto"];
 $valor =  $_POST["valor"];
 $valor_recebido =  $_POST["valor_recebido"];
 $troco =  $_POST["troco"];
+$obs =  $_POST["obs"];
 
-$sql = "UPDATE pedidos_cadastrados SET nome_cliente='$nome_cliente', metodo_pgto='$metodo_pgto', produto='$produto', valor='$valor', valor_recebido='$valor_recebido', troco='$troco' WHERE id='$id'";
+$sql = "UPDATE pedidos_cadastrados SET nome_cliente='$nome_cliente', metodo_pgto='$metodo_pgto', produto='$produto', valor='$valor', valor_recebido='$valor_recebido', troco='$troco', obs='$obs' WHERE id='$id'";
 $resultado = mysqli_query($conn, $sql);
 
 if (mysqli_query($conn, $sql)) {
