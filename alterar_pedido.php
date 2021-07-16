@@ -64,7 +64,7 @@ $rows_sql = mysqli_fetch_assoc($resultado);
                                     <div class="row">
                                         <div class="col-md-6" >
                                             <label>Método de pagamento</label>
-                                            <input type="text" class="form-control"value="<?php echo $rows_sql['produto'] ?>" readonly>
+                                            <input type="text" class="form-control"value="<?php echo $rows_sql['metodo_pgto'] ?>" readonly>
                                         </div>
                                         <div class="col-md-6" > 
                                             <label>Alterar método de pagamento</label>
