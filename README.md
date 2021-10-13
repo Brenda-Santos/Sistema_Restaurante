@@ -1,5 +1,4 @@
 # Sistema_Restaurante
-Teste - Sistema para armazenar registros de restaurante
 
 -- Descrição -- 
 
